@@ -1,109 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Player Comparison - 2025</title>
+  <style>
+    /* Basic reset and styling */
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .comparison {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f9f9f9;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;MLB Player Comparison - 2025 Season&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background-color: #fff;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #333;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.comparison {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-width: 600px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e0e0e0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 5px rgba(0,0,0,0.1);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>h1 {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>table {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-collapse: collapse;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>th, td {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid #e0e0e0;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>th {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background-color: #f9f9f9;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>tr:last-child td {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: none;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="comparison"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;MLB Player Comparison - 2025&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;table&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;th&gt;Statistic&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;th&gt;Jace Jung&lt;br&gt;&lt;small&gt;(Detroit Tigers)&lt;/small&gt;&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;th&gt;Alex Bregman&lt;br&gt;&lt;small&gt;(Boston Red Sox)&lt;/small&gt;&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;Spring Training WAR&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td id="jung-spring"&gt;Loading...&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td id="bregman-spring"&gt;Loading...&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;Regular Season WAR&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td id="jung-regular"&gt;Loading...&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td id="bregman-regular"&gt;Loading...&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>async function fetchData() {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>try {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>// Fetch data for Jace Jung</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const resJung = await fetch('/api/war?player=jung');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const jungData = await resJung.json();</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('jung-spring').textContent = jungData.springWar || 'N/A';</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('jung-regular').textContent = jungData.regularSeasonWar || 'N/A';</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>// Fetch data for Alex Bregman</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const resBregman = await fetch('/api/war?player=bregman');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const bregmanData = await resBregman.json();</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('bregman-spring').textContent = bregmanData.springWar || 'N/A';</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('bregman-regular').textContent = bregmanData.regularSeasonWar || 'N/A';</p>
-<p class="p1"><span class="Apple-converted-space">      </span>} catch (error) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>console.error('Error fetching data:', error);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>// Fetch data immediately and then refresh every 60 seconds</p>
-<p class="p1"><span class="Apple-converted-space">    </span>fetchData();</p>
-<p class="p1"><span class="Apple-converted-space">    </span>setInterval(fetchData, 60000);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <div class="comparison">
+    <h1>MLB Player Comparison - 2025</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Statistic</th>
+          <th>Jace Jung<br><small>(Detroit Tigers)</small></th>
+          <th>Alex Bregman<br><small>(Boston Red Sox)</small></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Spring Training WAR</td>
+          <td id="jung-spring">Loading...</td>
+          <td id="bregman-spring">Loading...</td>
+        </tr>
+        <tr>
+          <td>Regular Season WAR</td>
+          <td id="jung-regular">Loading...</td>
+          <td id="bregman-regular">Loading...</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <script>
+    // Function to fetch WAR data for both players from your API endpoints
+    async function fetchData() {
+      try {
+        // Fetch data for Jace Jung
+        const resJung = await fetch('/api/war?player=jung');
+        const jungData = await resJung.json();
+        document.getElementById('jung-spring').textContent = jungData.springWar || 'N/A';
+        document.getElementById('jung-regular').textContent = jungData.regularSeasonWar || 'N/A';
+        
+        // Fetch data for Alex Bregman
+        const resBregman = await fetch('/api/war?player=bregman');
+        const bregmanData = await resBregman.json();
+        document.getElementById('bregman-spring').textContent = bregmanData.springWar || 'N/A';
+        document.getElementById('bregman-regular').textContent = bregmanData.regularSeasonWar || 'N/A';
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+
+    // Fetch data immediately, then update every 60 seconds
+    fetchData();
+    setInterval(fetchData, 60000);
+  </script>
 </body>
 </html>
